@@ -5,4 +5,12 @@
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1"
          metadata-complete="true">
+    <servlet>
+        <servlet-name>RankServlet</servlet-name>
+        <servlet-class>api.RankServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RankServlet</servlet-name>
+        <url-pattern>/rank.json</url-pattern>
+    </servlet-mapping>
 </web-app>
